@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'robot_arm_interface = robot_arm_interface.robot_arm_interface:main'
+            'uart_interface_node = robot_arm_interface.mcu_interface:main'
         ],
     },
 )
